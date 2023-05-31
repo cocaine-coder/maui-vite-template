@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "cocaine coder",
+  "classifications": [ "MAUI", "Android", "iOS", "macOS", "Mac", "Catalyst", "Windows", "Tizen", "Vue" ],
+  "identity": "Template.Maui.Vue",
+  "name": ".NET MAUI Vue Hybrid App",
+  "shortName": "maui-vue",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MauiVueTemplate",
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "copyOnly": [ "**/wwwroot/css/**", "**/*.svg", "**/*.ttf" ]
+    }
+  ],
+  "preferNameDirectory": true,
+  "defaultName": "MauiApp1"
+}
